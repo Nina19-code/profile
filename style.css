@@ -17,7 +17,6 @@
   }
 }
 
-
 body {
   font-family: 'Mulish', sans-serif;
   margin: 0px auto;
@@ -28,12 +27,14 @@ h1 {
   color: rgba(15, 82, 87);
   font-weight: bold;
   margin: 0px auto;
+  margin-bottom: 25px;
 }
 
 h4 {
   color: rgba(15, 82, 87);
   font-weight: bold;
   margin: 0px auto;
+  margin-bottom: 10px;
 }
 
 img {
@@ -43,7 +44,7 @@ img {
 }
 
 p {
-  line-height: 5px;
+  line-height: 1.2em;
 }
 
 ul {
@@ -51,11 +52,22 @@ ul {
   /*padding-right: 20px;*/
 }
 
-li {
+form {
+  padding-bottom: 25px;
+  width: 75%;
+}
+
+li, .inline_list {
   display: inline-block;
   padding-right: 10px;
 }
 
+a { color: rgba(15, 82, 87); }
+
+
+.image-border {
+  border: 10px solid rgba(255, 249, 249, 0.5);
+}
 .container {
   margin: 0 auto;
   padding-bottom: 25px;
@@ -63,7 +75,7 @@ li {
 
 .first_card {
   width: 80%;
-  height: 400px;
+  /*height: 400px;*/
   margin: 0 auto;
   padding-top: 25px;
   margin-bottom: 25px;
@@ -73,7 +85,7 @@ li {
 .card {
   background-color: white;
   width: 80%;
-  height: 140px;
+  /*height: 140px;*/
   margin: 0 auto;
   margin-bottom: 25px;
   padding-top: 10px;
@@ -84,7 +96,7 @@ li {
 .last_card {
   background-color: white;
   width: 80%;
-  height: 70px;
+  /*height: 70px;*/
   margin: 0 auto;
   margin-bottom: 25px;
   padding-top: 10px;
